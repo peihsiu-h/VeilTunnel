@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Runtime files (contain secrets / machine-specific state)
+server_config.json
+client_config.json
+*.json.tmp
+sysproxy_backup.json
+banned_ips.txt
+certs/
+logs/
+.env
+
+# PyInstaller
+build/
+dist/
+*.spec

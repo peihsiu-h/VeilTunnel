@@ -1,0 +1,12 @@
+{
+  "_comment": "Copy to server_config.json (next to the exe, or the project root when running from source). The GUI creates and updates this file for you. Leave cert/key blank for an auto-generated self-signed certificate.",
+  "host": "0.0.0.0",
+  "port": 443,
+  "psk": "use-a-long-random-string",
+  "tls": true,
+  "cert": "",
+  "key": "",
+  "auto_ban": true,
+  "language": "auto",
+  "log_level": "INFO"
+}

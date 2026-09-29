@@ -1,0 +1,12 @@
+{
+  "_comment": "Copy to client_config.json (next to the exe, or the project root when running from source). The GUI creates and updates this file for you.",
+  "server": "wss://your.server.example:443/ws/updates",
+  "psk": "paste-the-server-psk-here",
+  "verify_ssl": true,
+  "bind": "127.0.0.1",
+  "port": 1080,
+  "rate_limit_mbps": 0,
+  "system_proxy": true,
+  "language": "auto",
+  "log_level": "INFO"
+}

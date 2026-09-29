@@ -1,0 +1,7 @@
+# Server
+fastapi>=0.110
+uvicorn>=0.30
+cryptography>=42.0
+
+# Client + server
+websockets>=15.0
